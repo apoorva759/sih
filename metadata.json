@@ -1,0 +1,6 @@
+{
+  "name": "RAILETA AI",
+  "description": "Dynamic Railway ETA Forecasting System for Indian Railways Coaching Trains (SIH26028)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

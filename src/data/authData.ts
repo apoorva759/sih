@@ -1,0 +1,41 @@
+import { User } from '../types';
+
+export const DEMO_USERS: User[] = [
+  {
+    id: 'USR-01',
+    name: 'Rajesh Sharma',
+    email: 'rajesh.sharma@ncr.railnet.gov.in',
+    role: 'OPERATIONS_CONTROLLER',
+    roleTitle: 'Chief Section Controller',
+    division: 'Jhansi Division, North Central Railway (NCR)',
+    employeeIdOrPnr: 'CRIS-NCR-8841',
+    avatarInitials: 'RS',
+    avatarBg: 'bg-indigo-600',
+    phone: '+91 98112 45890',
+  },
+  {
+    id: 'USR-02',
+    name: 'Ananya Verma',
+    email: 'ananya.verma@ncr.railnet.gov.in',
+    role: 'TRACK_ENGINEER',
+    roleTitle: 'Senior P-Way Track Engineer',
+    division: 'Gwalior Maintenance Subdivision',
+    employeeIdOrPnr: 'CRIS-PWAY-4102',
+    avatarInitials: 'AV',
+    avatarBg: 'bg-purple-600',
+    phone: '+91 94250 81234',
+  },
+  {
+    id: 'USR-03',
+    name: 'Aarav Patel',
+    email: 'aarav.patel@gmail.com',
+    role: 'PASSENGER',
+    roleTitle: 'Confirmed Passenger / Commuter',
+    division: 'Gwalior (GWL) → Agra Cantt (AGC)',
+    employeeIdOrPnr: 'PNR: 2458910234',
+    avatarInitials: 'AP',
+    avatarBg: 'bg-blue-600',
+    phone: '+91 99876 54321',
+    subscribedTrainNumber: '12806',
+  },
+];
